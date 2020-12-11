@@ -1,4 +1,4 @@
-# intro2cv_final_project
+# Intro2CV_final_project
 This project is created to develop a robust human detection algorithm for autonomous mobile robot ULTRABOT, using RGB-D images from Intel Realsense D435 camera. 
 
 ULTRABOT is the robot developed to perform disinfection by UVC lamps fully autonomously. However, if a human suddenly appears near the robot UVC lamps, it MUST switch off them in order not to harm the human's eyes. In order to achieve that, a low-level human detection algorithm for sych emergency cases is needed.
