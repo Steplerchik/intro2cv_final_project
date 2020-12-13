@@ -12,3 +12,7 @@ Depth channel allows to calculate a distance to a human. If a human stays in fro
 <p align="center">
 <img src="https://old.sk.ru/resized-image.ashx/__size/550x0/__key/telligent-evolution-components-attachments/13-50-00-00-00-02-16-56/skoltech-rastr-ENG.png" height="40">
 </p>
+
+
+ ### Dataset preparation
+ Dataset images were annotated using https://www.makesense.ai/
