@@ -5,7 +5,7 @@ from mrcnn.utils import Dataset
 
 
 class ISRLHumanDatasetManager(Dataset):
-    def load_dataset(self, dataset_dir, is_train=True):
+    def load_dataset(self, dataset_dir, dataset_type="train"):
         self.add_class("dataset", 1, "human")
 
         images_dir = dataset_dir + '/color/'
@@ -31,10 +31,17 @@ class ISRLHumanDatasetManager(Dataset):
             annotation_path_list.append(annotation_path)
 
         indices = np.arange(len(image_id_list))
-        threshold = round(len(image_id_list) * 0.8)
+        threshold1 = round(len(image_id_list) * 0.7)
+        threshold2 = round(len(image_id_list) * 0.9)
         np.random.seed(1)
         np.random.shuffle(indices)
-        indices = indices[:threshold] if is_train else indices[threshold:]
+        if dataset_type == "train":
+            indices = indices[:threshold1]
+        elif dataset_type == "val":
+            indices = indices[threshold1:threshold2]
+        else:
+            indices = indices[threshold2:]
+        print("Indices:", indices)
         for i in indices:
             self.add_image('dataset', image_id=image_id_list[i], path=image_path_list[i], annotation=annotation_path_list[i])
 
