@@ -9,3 +9,8 @@ __pycache__/
 /models/mask_rcnn_human_cfg_0005.h5
 /models/mask_rcnn_human_cfg_0005_2.h5
 /models/mask_rcnn_human_cfg_0005_1.h5
+/scripts/mask_rcnn/photo_2020-12-14_17-11-46.jpg
+/scripts/mask_rcnn/photo_2020-12-14_18-04-14.jpg
+/models/mask_rcnn_human_cfg_0005_1_train_test.h5
+/models/mask_rcnn_human_cfg_0005_2_train_test_val.h5
+/models/mask_rcnn_human_cfg_0005_3_train_test_val_human_mask.h5
