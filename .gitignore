@@ -7,3 +7,5 @@ __pycache__/
 /models/mask_rcnn_coco.h5
 /venv2/
 /models/mask_rcnn_human_cfg_0005.h5
+/models/mask_rcnn_human_cfg_0005_2.h5
+/models/mask_rcnn_human_cfg_0005_1.h5
