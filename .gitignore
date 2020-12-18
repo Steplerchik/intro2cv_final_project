@@ -15,3 +15,6 @@ __pycache__/
 /models/mask_rcnn_human_cfg_0005_2_train_test_val.h5
 /models/mask_rcnn_human_cfg_0005_3_train_test_val_human_mask.h5
 /scripts/mask_rcnn/.ipynb_checkpoints/
+/scripts/mask_rcnn/evaluation_yolo.ipynb
+/scripts/mask_rcnn/prediction_on_datasets.ipynb
+/scripts/mask_rcnn/recall_precision_mask_rcnn_0_5.txt
