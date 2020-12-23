@@ -31,6 +31,7 @@ def find_ground_truth_number(dataset, cfg):
     ground_truth_number = 0
     for image_id in dataset.image_ids:
         _, _, _, gt_bboxes, _ = load_image_gt(dataset, cfg, image_id, use_mini_mask=False)
+        print("Finding ground_truth: ", image_id)
         ground_truth_number += len(gt_bboxes)
     return ground_truth_number
 
