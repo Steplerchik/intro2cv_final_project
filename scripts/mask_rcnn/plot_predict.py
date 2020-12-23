@@ -46,5 +46,6 @@ def plot_dataset(dataset, image_id):
     print(mask.shape)
     fig, ax = plt.subplots(figsize=[15, 20])
     ax.imshow(image)
-    ax.imshow(mask[:, :, 0], cmap='gray', alpha=0.5)
+    for i in range(mask.shape[2]):
+        ax.imshow(mask[:, :, i], cmap='gray', alpha=0.5)
     plt.show()

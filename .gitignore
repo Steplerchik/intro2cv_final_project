@@ -18,3 +18,6 @@ __pycache__/
 /scripts/mask_rcnn/evaluation_yolo.ipynb
 /scripts/mask_rcnn/prediction_on_datasets.ipynb
 /scripts/mask_rcnn/recall_precision_mask_rcnn_0_5.txt
+/scripts/mask_rcnn/recall_precision_mask_rcnn_orig_0_5.txt
+/scripts/mask_rcnn/coco.py
+/cocoapi/
